@@ -40,4 +40,10 @@
         android:name="adarsh.example.navigationapp.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="adarsh.example.navigationapp.ui.useraccount.UserAccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/user_account_fragment" />
 </navigation>
